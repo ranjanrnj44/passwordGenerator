@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Responsive site">
+        <meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Ranjan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css file-->
+        <link rel="stylesheet" href="style.css"/>
+        <!--css file-->
+
+        <title>Home</title>
+
+        <!--google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&family=Sigmar+One&display=swap" rel="stylesheet">
+		<!--google fonts-->
+
+        <!--fontawesome icon start-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!--fontawesome icon end-->
+    </head>
+
+    <body>
+		<!--our main content goes here STAR-->
+		
+		<!--header START-->
+		<!-- <header>
+			<h1>Password Generator</h1>
+		</header> -->
+		<!--header END-->
+
+		<main> 
+			<!--article START-->
+			<article>
+
+				<section class="heading">
+					<h1>A Password Generator</h1>
+				</section>
+
+				<!--section START-->
+				<section class="char_btns">
+					<div id="char_range">
+						<div>
+						  <p><span id="password_len"></span></p>
+						  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<div class="password">
+							<p id="password_gen">PASSWORD</p>
+						</div>
+					</div>
+					<div id="btns">
+						<button type="button" id="GenBtn" class="common_btn" onclick=(GeneratePWD(9))>Generate</button>
+						<button type="button" id="CpyBtn" class="common_btn">Copy</button>
+					</div>
+				</section>
+				<!--section END-->
+
+				<section class="para">
+					<p>We promise that, any of your password generated using
+					   this toll is not been stored anywhere, we'll provide
+					   you 100% secure and safe options.
+					</p>
+				</section>
+			</article>
+			<!--article END-->
+
+		</main>
+		<!--main content END-->
+
+	<!--footer START-->
+	<!-- <footer>
+	</footer> -->
+    <!--footer END-->
+    
+    <!--Javascript START-->
+    <script src="./script.js" defer></script>
+    <!--Javascript END-->
+
+	</body>
+</html>
