@@ -1,0 +1,76 @@
+/*universal selector start*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d0b7b6;
+}
+/*universal selector end*/
+
+body article{
+    max-width: 850px;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 3px 3px 30px;
+}
+
+section h1{
+    padding: 30px;
+    background-color: silver;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+article .char_btns , article .char_range{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: whitesmoke;
+}
+article .char_btns .password{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+article .char_btns .password_gen{
+    user-select: all;
+}
+article .char_btns #btns{
+    display: flex;
+    flex-direction: column;
+}
+.para p{
+    background-color: #7EC9AC;
+    padding: 50px;
+}
+.char_btns #btns .common_btn{
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #7EC9AC;
+    border-radius: 20px;
+    border-bottom: 3px solid #1b684b;
+    cursor: pointer;
+    font-family: sigmar one;
+    transition: 0.5s;
+}
+.char_btns #btns .common_btn:hover{
+    background-color: #1b684b;
+    border-bottom: 3px solid #7EC9AC;
+}
+article .para{
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+}
